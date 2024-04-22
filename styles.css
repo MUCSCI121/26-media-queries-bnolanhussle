@@ -21,6 +21,10 @@ Create a media query that changes the font color from green when displayed on a 
 Create a media query that changes the shape of the div
 from a square when in portrait mode to a rectangle when landscape.
 */
+@media {
+  .orientation-shape {
+  }
+}
 .orientation-shape {
 }
 
