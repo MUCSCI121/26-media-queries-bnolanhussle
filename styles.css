@@ -6,6 +6,7 @@ html {
 /*
 Create a media query that changes the font color from green when displayed on a screen to red when printed
 */
+
 .print-color {}
 
 /** 
