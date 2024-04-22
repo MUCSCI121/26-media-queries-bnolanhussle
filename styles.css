@@ -37,8 +37,22 @@ Create media query that hides this element when the width is either
 less than 600px or greater than 1200px
 **/
 .hide-me-sometimes {
+  display: visible;
 }
-@media {
+
+/** 
+ Less than 600px
+*/
+@media (max-width: 600px) {
   .hide-me-sometimes {
+    display: hidden;
+  }
+}
+/** 
+ Greater than 1200px
+*/
+@media (min-width: 1200px) {
+  .hide-me-sometimes {
+    display: hidden;
   }
 }
